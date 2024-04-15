@@ -9,33 +9,38 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #A1B493;
+    background: #F4EFE6;
 
 }
 /*styles nav info HOME, ABOUT...*/
 nav{
     display: flex; 
-    width: 84%;
+    width: 100%;
     margin: auto;
     padding: 20px 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
 }
 /*makes info HOME, ABOUT... horizontal*/
 nav ul li{/*li: list items; ul: unordered list*/
     display: inline-block;
     list-style: none;
-    margin: 10px 20px; 
+    margin: 20px; 
 }
 /*changes color of HOME, ABOUT...*/
 nav ul li a{
     text-decoration: none;
-    color: #725c3f;
+    color: #162A2C;
     font-weight: bold;
 }
 /*change color of hover on HOME...*/
 nav ul li a:hover{
-    color: #e5ada8;
+    color: #686867;
 
 }
 /*postion of name and paragraph*/
@@ -46,32 +51,36 @@ nav ul li a:hover{
 /*color and space of name*/
 .detel h1{
     font-size: 50px;
-    color: #725c3f;
+    color: #162A2C;
     margin-bottom: 20px;
 }
 /*color of last name*/
 span{
-    color: #efe8d8;
+    color: #686867;
 }
 /*color and aize of paragraph undername*/
 .detel p{
-    color: #725c3f;
+    color: #162A2C;
     line-height: 22px; 
 }
 /*download cv part*/
 .detel a{
-    background: #725c3f;
+    background: #162A2C;
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
-    color: #efe8d8;
+    color: #F4EFE6;
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
 }
 
+.detel a:hover {
+    background: #686867;
+}
+
 .logo{
-    width: 300px;
+    width: 250px;
     height: auto;
 
 }
